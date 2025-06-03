@@ -8,7 +8,7 @@ argparse>=1.4.0           # For command-line argument parsing (built-in in Pytho
 python-whois>=0.8.0       # For WHOIS lookups (optional)
 requests==2.31.0
 bs4==0.0.2
-lxml==5.2.1
+lxml==5.4.0
 python-Wappalyzer==0.3.0  # Detect WordPress plugins/themes
 wpscan-toolkit==1.0       # If integrating WPScan API
 # Core dependencies
