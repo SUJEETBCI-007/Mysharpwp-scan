@@ -1,8 +1,11 @@
+## MySharp WordPress Plugin Scanner
+
+- A security tool to scan WordPress sites for vulnerable plugins and CVEs.
+
 # MySharp WordPress Plugin Scanner
 
-![Scanner Banner](https://via.placeholder.com/800x200?text=MySharp+WordPress+Scanner)
+![MySharpWPScanner](https://github.com/user-attachments/assets/4db2af15-f8b5-4e74-9237-2f586edf8c74)
 
-A security tool to scan WordPress sites for vulnerable plugins and CVEs.
 
 ## Features
 - Vulnerability scanning
@@ -10,108 +13,95 @@ A security tool to scan WordPress sites for vulnerable plugins and CVEs.
 - Export results to text files
 - Customizable scanning options
 
+## Requirements
+- Python 3.x
+
 ## Installation
+
 ```bash
-git clone https://github.com/SujeetBci786/Mysharmwp.git
-cd MySharpWPScanner
-chmod +x Mysharmwp  # Make executable
+user@users-MacBook-Pro ~ % cd Desktop
 
-## Usage
+user@users-MacBook-Pro Desktop % mkdir  MySharpWPScanner
 
-# Basic scan
-./wpprobe scan -u http://example.com
+user@users-MacBook-Pro Desktop % cd MySharpWPScanner
 
-# Verbose mode
-./wpprobe scan -u http://example.com -v
+user@users-MacBook-Pro MySharpWPScanner % git clone https://github.com/SujeetBci786/Mysharpwp.git
 
-# Save results to file
-./wpprobe scan -u http://example.com -o results.txt
+user@users-MacBook-Pro MySharpWPScanner % touch Mysharpwp
 
-# Verbose + save to file
-./wpprobe scan -u http://example.com -v -o results.txt
-
-
-## Requirements
-- Python 3.x
-
-### 4. Create Python Dependencies File (requirements.txt - optional)
-⁠ bash
-touch requirements.txt
- ⁠
-
-Since this project only uses Python standard libraries, the file can be empty. But you can add:
-⁠ txt
-# Python standard libraries only
-# No additional packages required
- ⁠
-
-### Final Structure Verification
-⁠ bash
-tree MySharpWPScanner
- ⁠
-
-Should show:
-
-MySharpWPScanner/
-├── wpprobe
-├── README.md
-└── requirements.txt
-
-
-### Test Your Setup
-⁠ bash
-# Make executable
-chmod +x wpprobe
-
-# Run test scan
-./wpprobe scan -u http://test.com
-
-# Run verbose scan
-./wpprobe scan -u http://test.com -v
-
-# Save to file
-./wpprobe scan -u http://test.com -o scan_results.txt
- ⁠
-# MySharp WordPress Plugin Scanner
-
-A security tool to scan WordPress sites for vulnerable plugins and CVEs.
-
-## Features
-- Vulnerability scanning
-- Verbose mode for detailed reports
-- Export results to text files
-- Customizable scanning options
-
-## Installation
- ⁠bash
-git clone https://github.com/your-username/MySharpWPScanner.git
-cd MySharpWPScanner
-chmod +x wpprobe
-
-
-⁠ ## Usage
- ⁠bash
-# Basic scan
-./wpprobe scan -u http://example.com
-
-# Verbose mode
-./wpprobe scan -u http://example.com -v
-
-# Save results to file
-./wpprobe scan -u http://example.com -o results.txt
-
-# Verbose + save to file
-./wpprobe scan -u http://example.com -v -o results.txt
-
-
-## Requirements
-- Python 3.x
-
-## Contributors
-- [@hacker_sujeet](https://github.com/hacker_sujeet)
+user@users-MacBook-Pro ~ % chmod +x Mysharmwp                # Make executable
+```
 
 EOL
 && cat > requirements.txt << 'EOL'
 # Python standard libraries only
 # No additional packages required
-EOL
+
+
+### 4. Create Python Dependencies File (requirements.txt - optional)
+- touch requirements.txt
+
+
+## Should show:
+
+```base
+MySharpWPScanner/
+
+-├── Mysharpwp
+
+-├── README.md
+
+-└── requirements.txt
+
+```
+
+### Test Your Setup
+
+```base
+# Basic scan
+./wpprobe scan -u http://example.com
+
+# Verbose mode
+./wpprobe scan -u http://example.com -v
+
+# Save results to file
+./wpprobe scan -u http://example.com -o results.txt
+
+# Verbose + save to file
+./wpprobe scan -u http://example.com -v -o results.txt
+
+```
+
+## Advannce Usage
+```bash
+
+🔹 Full scan (WordPress + Technologies)
+          
+     ./mysharp scan -u http://example.com -t full
+        
+🔹 WordPress vulnerability scan only
+          
+      ./mysharp scan -u http://example.com -t wp
+        
+🔹 Technology detection scan only
+          
+      ./mysharp scan -u http://example.com -t tech
+        
+🔹 Scan with verbose output
+          
+      ./mysharp scan -u http://example.com -t full -v
+        
+🔹 Output to file
+          
+      ./mysharp scan -u http://example.com -t full -o results.txt
+
+```
+
+
+## Contributors
+- [@hacker_sujeet](https://github.com/hacker_sujeet)
+
+
+
+
+
