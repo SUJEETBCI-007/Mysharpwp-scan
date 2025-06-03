@@ -19,17 +19,28 @@
 ## Installation
 
 ```bash
-user@users-MacBook-Pro ~ % cd Desktop
+💀Hack-Me-if-You-Can💀 cd Desktop
 
-user@users-MacBook-Pro Desktop % mkdir  MySharpWPScanner
+💀Hack-Me-if-You-Can💀Desktop % mkdir  MySharpWPScanner
 
-user@users-MacBook-Pro Desktop % cd MySharpWPScanner
+💀Hack-Me-if-You-Can💀Desktop % cd MySharpWPScanner
 
-user@users-MacBook-Pro MySharpWPScanner % git clone https://github.com/SujeetBci786/Mysharpwp.git
+💀Hack-Me-if-You-Can💀MySharpWPScanner % git clone https://github.com/SujeetBci786/Mysharpwp-scan.git
 
-user@users-MacBook-Pro MySharpWPScanner % touch Mysharpwp
+💀Hack-Me-if-You-Can💀MySharpWPScanner % ls
 
-user@users-MacBook-Pro ~ % chmod +x Mysharmwp                # Make executable
+Mysharpwp-scan
+
+💀Hack-Me-if-You-Can💀MySharpWPScanner# cd Mysharpwp-scan
+
+💀Hack-Me-if-You-Can💀MySharpWPScanner % touch Mysharpwp                      # Make permission 
+
+💀Hack-Me-if-You-Can💀MySharpWPScanner % chmod +x ./Mysharpwp                 # Make executable
+
+💀Hack-Me-if-You-Can💀Mysharpwp-scan#./Mysharpwp -h  
+
+💀Hack-Me-if-You-Can💀Mysharpwp-scan#./mysharpwp scan -u http://example.com -t full
+
 ```
 
 EOL
@@ -59,16 +70,16 @@ MySharpWPScanner/
 
 ```base
 # Basic scan
-./wpprobe scan -u http://example.com
+./Mysharpwp scan -u http://example.com
 
 # Verbose mode
-./wpprobe scan -u http://example.com -v
+./Mysharpwp scan -u http://example.com -v
 
 # Save results to file
-./wpprobe scan -u http://example.com -o results.txt
+./Mysharpwp scan -u http://example.com -o results.txt
 
-# Verbose + save to file
-./wpprobe scan -u http://example.com -v -o results.txt
+# Mysharpwp-scan + save to file
+./Mysharpwp scan -u http://example.com -v -o results.txt
 
 ```
 
@@ -77,26 +88,41 @@ MySharpWPScanner/
 
 🔹 Full scan (WordPress + Technologies)
           
-     ./mysharp scan -u http://example.com -t full
+     ./Mysharpwp scan -u http://example.com -t full
         
 🔹 WordPress vulnerability scan only
           
-      ./mysharp scan -u http://example.com -t wp
+      ./Mysharpwp scan -u http://example.com -t wp
         
 🔹 Technology detection scan only
           
-      ./mysharp scan -u http://example.com -t tech
+      ./Mysharpwp scan -u http://example.com -t tech
         
 🔹 Scan with verbose output
           
-      ./mysharp scan -u http://example.com -t full -v
+      ./Mysharpwp scan -u http://example.com -t full -v
         
 🔹 Output to file
           
-      ./mysharp scan -u http://example.com -t full -o results.txt
+      ./Mysharpwp scan -u http://example.com -t full -o results.txt
 
 ```
 
+## How to Install Dependencies
+Users (or you) can install all dependencies with:
+
+```bash
+
+💀Hack-Me-if-You-Can💀Mysharpwp-scan#touch requirements.txt
+
+💀Hack-Me-if-You-Can💀Mysharpwp-scan#pip3 install -r requirements.txt
+
+💀Hack-Me-if-You-Can💀Mysharpwp-scan#chmod 644 requirements.txt
+
+💀Hack-Me-if-You-Can💀Mysharpwp-scan#pip3 install -r requirements.txt
+
+💀Hack-Me-if-You-Can💀Mysharpwp-scan#ls
+```
 
 ## Contributors
 - [@hacker_sujeet](https://github.com/hacker_sujeet)
