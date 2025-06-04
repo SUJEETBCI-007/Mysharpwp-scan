@@ -125,7 +125,27 @@ Users (or you) can install all dependencies with:
 ```
 
 ## Contributors
-- [@hacker_sujeet](https://x.com/hacker_sujeet)
+
+<div align="center">
+    <a href="https://x.com/hacker_sujeet" target="_blank">
+    <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+    </a>
+    <a href="[https://github.com/SUJEETBCI-007](https://www.youtube.com/@COMPUTERTRAININGINSTITUTE)" target="_blank">
+    <img src="https://forthebadge.com/images/badges/built-by-developers.svg" />
+    </a>
+</div>
+<br><br>
+
+<div align="center">
+  <a href="https://x.com/hacker_sujeet" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-@hacker__sujeet-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  
+  <a href="https://www.linkedin.com/in/sujeet-kumar-rajput" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Sujeet_Kumar_Rajput-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+
+</div>
 
 
 
