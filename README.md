@@ -125,7 +125,7 @@ Users (or you) can install all dependencies with:
 ```
 
 ## Contributors
-- [@hacker_sujeet](https://github.com/hacker_sujeet)
+- [@hacker_sujeet](https://x.com/hacker_sujeet)
 
 
 
