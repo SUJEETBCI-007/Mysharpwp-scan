@@ -6,7 +6,7 @@ urllib3>=2.0.0            # For URL handling
 colorama>=0.4.6           # For colored terminal output
 argparse>=1.4.0           # For command-line argument parsing (built-in in Python 3+)
 python-whois>=0.8.0       # For WHOIS lookups (optional)
-requests==2.31.0
+requests==2.32.2
 bs4==0.0.2
 lxml==5.2.1
 python-Wappalyzer==0.3.0  # Detect WordPress plugins/themes
